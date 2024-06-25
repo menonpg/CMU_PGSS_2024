@@ -19,13 +19,13 @@ def main():
 
 # R script that performs analysis on a CSV file 
 
-```{r setup, include=FALSE}
+```r
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## My first R Markdown
 
-```{r}
+```r
 
 library(readr)
 iris <- read_csv("iris.csv", col_names = F)
@@ -46,12 +46,12 @@ iris %>% group_by(Class) %>% summarize( Min.Sepal.Length = min(Sepal.Length, na.
 
 ```
 
-```{r}
+```r
 boxplot(Sepal.Length ~ Class, data = iris)
 
 ```
 
-```{r}
+```r
 
 boxplot(Sepal.Width ~ Class, data = iris)
 ```
