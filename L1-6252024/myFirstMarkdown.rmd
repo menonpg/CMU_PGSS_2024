@@ -1,9 +1,23 @@
 ---
 title: "myFirstRMarkdown"
 author: "Prahlad Menon"
-date: '2022-06-28'
+date: '2024-06-25'
 output: html_document
 ---
+
+# My First Python script generated using Github Copilot
+
+```python
+# Write a python function to add two numbers
+def add_numbers(a, b):
+    return a + b    
+
+def main():
+    print(add_numbers(2, 3))
+
+```
+
+# R script that performs analysis on a CSV file 
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
