@@ -1,1 +1,2 @@
-# Lecture 2  Notes
+# Lecture 2 Notes
+
