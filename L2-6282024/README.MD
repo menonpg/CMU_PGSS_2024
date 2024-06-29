@@ -3,27 +3,28 @@
 
 ### Summary of Today's Lecture:
 **Introduction to Lightning.AI**:
-Overview of how to set up a one-click studio using Lightning.AI.
-Discussion on preinstalled components for development and international local language models using Ollama.
+- Overview of how to set up a one-click studio using Lightning.AI.
+- Discussion on preinstalled components for development and international local language models using Ollama.
+
 **Retrieval-Augmented Generation (RAG)**:
-Explanation of RAG and its importance.
-Steps to set up Ollama and create a Streamlit app for performing RAG on documents.
-Practical example of performing RAG on images using a vision language model to identify the number and types of animals in an image, with the output formatted as JSON.
+- Explanation of RAG and its importance.
+- Steps to set up Ollama and create a Streamlit app for performing RAG on documents.
+- Practical example of performing RAG on images using a vision language model to identify the number and types of animals in an image, with the output formatted as JSON.
 
 ### Review of Previous Class Setup Steps:
 **Integrated Development Environments (IDEs)**:
 **Cloud-based IDEs**:
-Code repositories and GitHub.
-Using Google Colab and Drive for Python development.
-Posit Cloud (R environment).
-Lightning.AI for AI model development.
+- Code repositories and GitHub.
+- Using Google Colab and Drive for Python development.
+- Posit Cloud (R environment).
+- Lightning.AI for AI model development.
 
 **Local-based IDEs**:
-Visual Studio Code with plugins like Copilot, Jupyter, and Python.
-Terminal for cloning repositories and syncing.
+- Visual Studio Code with plugins like Copilot, Jupyter, and Python.
+- Terminal for cloning repositories and syncing.
 - What is .gitignore and how to use .gitignore lists
-Anaconda Python package manager.
+- Anaconda Python package manager.
 
 **Generating and Running Python Code**:
-Basics of writing and executing Python scripts on the terminal in addition to ipynb notebooks
-Practical setup and configuration for local and cloud environments.
+- Basics of writing and executing Python scripts on the terminal in addition to ipynb notebooks
+- Practical setup and configuration for local and cloud environments.
