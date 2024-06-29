@@ -6,6 +6,20 @@
 - Overview of how to set up a one-click studio using Lightning.AI.
 - Discussion on preinstalled components for development and international local language models using Ollama.
 
+**Ollama Setup on Lightning.AI:**
+
+**Commands for setting up Ollama:**
+curl -fsSL https://ollama.com/install.sh | sh
+ollama pull llava-phi3
+ollama pull llama3
+Retrieval-Augmented Generation (RAG):
+
+**Explanation of RAG and its importance.**
+Steps to set up Ollama and create a Streamlit app for performing RAG on documents.
+Practical example of performing RAG on images using a vision language model (llava-phi3) to identify the number and types of animals in an image, with the output formatted as JSON.
+Using visual question answering on llava-phi3 from the Ollama terminal command line application.
+Performing RAG on llama3 with a Streamlit app.
+
 **Retrieval-Augmented Generation (RAG)**:
 - Explanation of RAG and its importance.
 - Steps to set up Ollama and create a Streamlit app for performing RAG on documents.
