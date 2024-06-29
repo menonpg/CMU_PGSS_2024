@@ -20,6 +20,7 @@
 - Practical example of performing RAG on images using a vision language model (llava-phi3) to identify the number and types of animals in an image, with the output formatted as JSON.
 - Using visual question answering on llava-phi3 from the Ollama terminal command line application.
 - Performing RAG on llama3 with a Streamlit app.sing a vision language model to identify the number and types of animals in an image, with the output formatted as JSON.
+- General resources on best practices to prompt LLMs: https://www.promptingguide.ai/
 
 ### Review of Previous Class Setup Steps:
 **Integrated Development Environments (IDEs)**:
