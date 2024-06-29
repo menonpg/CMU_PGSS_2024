@@ -13,6 +13,7 @@
 
 ### Review of Previous Class Setup Steps:
 **Integrated Development Environments (IDEs)**:
+
 **Cloud-based IDEs**:
 - Code repositories and GitHub.
 - Using Google Colab and Drive for Python development.
