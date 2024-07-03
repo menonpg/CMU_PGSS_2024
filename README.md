@@ -42,4 +42,73 @@ Coursework repository for PGSS 2024, at Carnegie Mellon University.
 - **Local Language Models (LLMs):**
   - Utilizing local instances of language models for various AI tasks.
   - Examples include Ollama, which can be integrated into development workflows.
+ 
+
+## Week 02 
+*L3 - 7/2/2024: Working with Tabular Data [Regression vs Classification]*
+
+---
+
+#### Datasets to Explore:
+
+1. **UC Irvine ML Datasets Repository:**
+   - [UCI ML Repository](https://archive.ics.uci.edu/datasets)
+
+2. **Internal Datasets:**
+   - **R:**
+     ```R
+     library(datasets)
+     ```
+   - **Sklearn Datasets:**
+     ```python
+     from sklearn.datasets import load_iris
+     iris = load_iris()
+     ```
+
+---
+
+#### Key Topics:
+
+1. **Building Classification and Regression Models from Tabular Data:**
+   - Understand the difference between classification (categorizing data) and regression (predicting continuous values).
+
+2. **Understanding Boxplots:**
+   - Learn how to use boxplots to separate categorical classes based on a continuous variable.
+
+3. **Statistical Tests:**
+   - Introduction to statistical tests with a focus on the t-test, which compares the means of two groups.
+
+4. **Classification:**
+   - Definition and examples of classification problems.
+   - Techniques for building classification models.
+
+5. **Regression:**
+   - Definition and examples of regression problems.
+   - Techniques for building regression models.
+
+6. **Building a Classification Model in R and Python (Logistic Regression):**
+   - Steps to create logistic regression models in both R and Python.
+
+7. **Building a Regression Model in R:**
+   - Steps to create regression models in R.
+
+8. **Using Notebooks in R and Publishing to RPubs:**
+   - How to create and publish R Notebooks to RPubs for public viewing.
+
+9. **Opening .ipynb Files in GitHub Using Colab:**
+   - Use the Colab plugin or a custom Readme-specific line of code to open Jupyter notebooks (.ipynb) in GitHub.
+
+10. **Building a StreamLit App:**
+    - Steps to create a StreamLit app to host a model for web-based interactive inference.
+
+---
+
+#### Tensorflow Playground:
+
+- **Interactive Learning Tool:**
+  - [Tensorflow Playground](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.86874&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
+
+---
+
+These notes cover the essential topics and resources for understanding and working with tabular and text data, focusing on regression and classification.
 
