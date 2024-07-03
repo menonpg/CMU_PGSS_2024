@@ -43,6 +43,10 @@ Coursework repository for PGSS 2024, at Carnegie Mellon University.
   - Utilizing local instances of language models for various AI tasks.
   - Examples include Ollama, which can be integrated into development workflows.
  
+ 
+---
+---
+
 
 ## Week 02 
 *L3 - 7/2/2024: Working with Tabular Data [Regression vs Classification]*
@@ -107,8 +111,4 @@ Coursework repository for PGSS 2024, at Carnegie Mellon University.
 
 - **Interactive Learning Tool:**
   - [Tensorflow Playground](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.86874&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
-
----
-
-These notes cover the essential topics and resources for understanding and working with tabular and text data, focusing on regression and classification.
 
