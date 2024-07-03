@@ -2,7 +2,7 @@
 Coursework repository for PGSS 2024, at Carnegie Mellon University.
 
 ## Week 01 
-*Introduction to R and Python, IDEs and Local Development Evironments equipped with GenAI (Github Copilot, Ollama models)*
+*L1 and L2: Introduction to R and Python, IDEs and Local Development Evironments equipped with GenAI (Github Copilot, Ollama models)*
 
 ## Setup for Development Environment
 
