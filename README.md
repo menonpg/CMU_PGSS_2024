@@ -112,3 +112,79 @@ Coursework repository for PGSS 2024, at Carnegie Mellon University.
 - **Interactive Learning Tool:**
   - [Tensorflow Playground](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.86874&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
 
+---
+
+---
+
+### Week 03: Working with AutoML Tools, Understanding Classification Models and Metrics for Performance in Binary and Multi-Class Classification and Regression + Images and WebCam Feeds [Building Portable AI from a Teachable Machine]
+
+#### Lecture 4: Deploying an ML Model in Production - Show and Tell
+
+**Topics Covered:**
+1. **Tabular Data Driven Model**
+   - Understanding the structure and importance of tabular data in machine learning.
+   - How to preprocess and clean tabular data for model training.
+
+2. **H2o.AI**
+   - Introduction to H2o.AI and its functionalities.
+   - Demonstration of using H2o.AI for building machine learning models.
+   - Advantages of using H2o.AI for AutoML.
+
+3. **AutoML Tools**
+   - Overview of various AutoML tools available in the market.
+   - Comparison of different AutoML tools based on features and performance.
+   - Practical session on using AutoML tools to automate the machine learning pipeline.
+
+4. **Ensemble Models**
+   - Explanation of ensemble learning and its types (Bagging, Boosting, Stacking).
+   - How ensemble models improve the performance of machine learning models.
+   - Implementation of ensemble models using popular libraries.
+
+5. **Linear vs Non-linear Model Types**
+   - Differences between linear and non-linear models.
+   - Examples of linear models (e.g., Linear Regression, Logistic Regression).
+   - Examples of non-linear models (e.g., Decision Trees, Neural Networks).
+
+6. **Typical Model Performance Metrics**
+   - Key performance metrics for evaluating machine learning models.
+   - Metrics for regression models (e.g., MSE, RMSE, MAE).
+   - Metrics for classification models (e.g., Accuracy, Precision, Recall, F1 Score).
+
+7. **Image Models and AutoML**
+   - Introduction to image models and their applications.
+   - Using AutoML tools for building and deploying image classification models.
+   - Case study on deploying an image model using AutoML.
+
+---
+
+#### Lecture 5:
+
+**Topics Covered:**
+
+1. **Crowd-sourcing Data**
+   - Importance of crowd-sourced data in machine learning.
+   - How to collect and use crowd-sourced data for model training.
+   - Resources:
+     - [RGB Color Chart](https://www.rapidtables.com/web/color/RGB_Color.html)
+     - [Google Spreadsheet for Data Collection](https://docs.google.com/spreadsheets/d/1e4tKP4QaNnCz8yqSYSBWG6fO6wfFhwJI3xzfp4XD8Lo/edit?usp=sharing)
+
+2. **Linear vs Non-linear Models**
+   - In-depth discussion on linear and non-linear models.
+   - Scenarios where linear models are preferred over non-linear models and vice versa.
+   - Practical examples and case studies.
+
+3. **Technical Review of Classification Metrics**
+   - Detailed analysis of classification metrics.
+   - Understanding the confusion matrix and its components.
+   - Advanced metrics for multi-class classification problems.
+
+4. **Teachable Machine**
+   - Introduction to Google's Teachable Machine.
+   - How to use Teachable Machine for creating and training image models.
+   - Practical session on building a portable AI using Teachable Machine.
+   - Resource for data collection: [Google Drive Folder for Modeling Images](https://drive.google.com/drive/folders/1TpveL7qAaT0q-BB7375OTbX0e-_lW-QY?usp=drive_link)
+
+---
+
+### Summary:
+This week focuses on understanding and working with AutoML tools, deploying machine learning models in production, and evaluating model performance using various metrics. Additionally, the lectures cover the differences between linear and non-linear models, the importance of crowd-sourced data, and practical sessions on using Teachable Machine for building portable AI models.
