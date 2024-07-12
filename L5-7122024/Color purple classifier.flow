@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "cells": [
+    {
+      "type": "cs",
+      "input": "assist"
+    },
+    {
+      "type": "cs",
+      "input": "importFiles"
+    },
+    {
+      "type": "cs",
+      "input": "importFiles [ \"/Users/pgmenon/Documents/CMU/PGSS2024/CMU_PGSS_2024/L5-7122024/ColorPurple.csv\" ]"
+    },
+    {
+      "type": "cs",
+      "input": "setupParse source_frames: [ \"nfs://Users/pgmenon/Documents/CMU/PGSS2024/CMU_PGSS_2024/L5-7122024/ColorPurple.csv\" ]"
+    },
+    {
+      "type": "cs",
+      "input": "parseFiles\n  source_frames: [\"nfs://Users/pgmenon/Documents/CMU/PGSS2024/CMU_PGSS_2024/L5-7122024/ColorPurple.csv\"]\n  destination_frame: \"ColorPurple.hex\"\n  parse_type: \"CSV\"\n  separator: 44\n  number_columns: 6\n  single_quotes: false\n  column_names: null\n  column_types: [\"Numeric\",\"Numeric\",\"Numeric\",\"Enum\",\"Enum\",\"Enum\"]\n  delete_on_done: true\n  check_header: -1\n  chunk_size: 4194304\n  escapechar: undefined"
+    },
+    {
+      "type": "cs",
+      "input": "getFrameSummary \"ColorPurple.hex\""
+    },
+    {
+      "type": "cs",
+      "input": "assist splitFrame, \"ColorPurple.hex\""
+    },
+    {
+      "type": "cs",
+      "input": "splitFrame \"ColorPurple.hex\", [0.75], [\"frame_0.750\",\"frame_0.250\"], 608751"
+    }
+  ]
+}
