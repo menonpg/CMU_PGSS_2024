@@ -1,7 +1,7 @@
 # CMU PGSS 2024 Course Repository
 Coursework repository for PGSS 2024, at Carnegie Mellon University.
 
-## Week 01 
+# Week 1 Lecture Notes
 *L1 and L2: Introduction to R and Python, IDEs and Local Development Evironments equipped with GenAI (Github Copilot, Ollama models)*
 
 ## Setup for Development Environment
@@ -47,8 +47,8 @@ Coursework repository for PGSS 2024, at Carnegie Mellon University.
 ---
 ---
 
+# Week 2 Lecture Notes
 
-## Week 02 
 *L3 - 7/2/2024: Working with Tabular Data [Regression vs Classification]*
 
 ---
@@ -116,7 +116,9 @@ Coursework repository for PGSS 2024, at Carnegie Mellon University.
 
 ---
 
-### Week 03: Working with AutoML Tools, Understanding Classification Models and Metrics for Performance in Binary and Multi-Class Classification and Regression + Images and WebCam Feeds [Building Portable AI from a Teachable Machine]
+# Week 3 Lecture Notes
+
+### Working with AutoML Tools, Understanding Classification Models and Metrics for Performance in Binary and Multi-Class Classification and Regression + Images and WebCam Feeds [Building Portable AI from a Teachable Machine]
 
 #### Lecture 4: Deploying an ML Model in Production - Show and Tell
 
