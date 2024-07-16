@@ -8,7 +8,7 @@ import matplotlib.patches as patches
 import matplotlib
 
 # Load the model
-model = joblib.load("model.pkl")
+model = joblib.load("https://raw.githubusercontent.com/menonpg/CMU_PGSS_2024/main/L6-7162024/WebApp_ClassifyPurple/model.pkl") #model.pkl")
 
 # Add a title for this app
 st.title("Purple Color Classifier using Gradient Boosting")
