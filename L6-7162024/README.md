@@ -10,14 +10,15 @@
 ```python
 streamlit run maskClassifier_streamlit.py
 ```
+The app opens on port 8501 by default, on the localhost. 
+
 
 # How to use the Mask Classifier Gradio App
 
 ```python
 python maskClassifier_gradio.py
 ```
-
-The app opens on port 8501 by default, on the localhost. 
+The app opens on port 7860 by default, on the localhost. 
 
 
 # Exposure to time series data and forecasting
