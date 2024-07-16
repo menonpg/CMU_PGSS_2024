@@ -188,3 +188,66 @@ Coursework repository for PGSS 2024, at Carnegie Mellon University.
 
 ### Summary:
 This week focuses on understanding and working with AutoML tools, deploying machine learning models in production, and evaluating model performance using various metrics. Additionally, the lectures cover the differences between linear and non-linear models, the importance of crowd-sourced data, and practical sessions on using Teachable Machine for building portable AI models.
+
+
+---
+
+---
+# Week 4 Lecture Notes
+
+## Developing and Hosting and Deployment of Web Applications that Expose Pre-trained Machine Learning Models
+
+### Streamlit
+- Streamlit is an open-source app framework for Machine Learning and Data Science teams.
+- It allows you to create and share custom web apps for machine learning and data science.
+- It’s easy to use, requiring only a few lines of Python code to create interactive web applications.
+
+### Gradio
+- Gradio is a Python library that allows you to quickly create customizable UI components around your machine learning models.
+- It provides an easy way to demo your models using a web interface.
+
+### Huggingface Spaces
+- Huggingface Spaces is a hosted service that allows you to deploy machine learning models and applications.
+- It supports various frameworks including Streamlit and Gradio, making it easy to host and share your applications.
+
+### Streamlit Hub
+- Streamlit Hub is a platform for hosting and sharing Streamlit applications.
+- It allows you to deploy your Streamlit apps with ease and collaborate with others.
+
+## How to Use the Mask Classifier Streamlit App
+
+To run the Mask Classifier Streamlit app, use the following command:
+```python
+streamlit run maskClassifier_streamlit.py
+```
+The app opens on port 8501 by default, on the localhost.
+
+## How to Use the Mask Classifier Gradio App
+
+To run the Mask Classifier Gradio app, use the following command:
+```python
+python maskClassifier_gradio.py
+```
+The app opens on port 7860 by default, on the localhost.
+
+## How to Use the Purple Classifier Streamlit App
+
+To run the Purple Classifier Streamlit app, use the following command:
+```python
+streamlit run PurpleClassifier_streamlit.py
+```
+The app opens on port 8501 by default, on the localhost.
+
+## How to Use the Purple Classifier Gradio App
+
+To run the Purple Classifier Gradio app, use the following command:
+```python
+python PurpleClassifier_gradio.py
+```
+The app opens on port 7860 by default, on the localhost.
+
+## Next Class: Exposure to Time Series Data and Forecasting
+
+- Time series data and examples
+- Time series forecasting using typical models (Holt Winters model, Linear Forecasting)
+- Time series forecasting using deep learning transformer models: Amazon Chronos
