@@ -27,6 +27,7 @@ streamlit run PurpleClassifier_streamlit.py
 ```
 The app opens on port 8501 by default, on the localhost. 
 
+*Version uploaded to Streamlit Hub: https://webappclassifypurple-whheywt9tr8jrout9wr55z.streamlit.app/*
 
 # How to use the Purple Classifier Gradio App
 
