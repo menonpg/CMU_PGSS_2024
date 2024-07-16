@@ -8,7 +8,13 @@
 # How to use the Mask Classifier Streamlit App
 
 ```python
-streamlit run mask_classifier.py
+streamlit run maskClassifier_streamlit.py
+```
+
+# How to use the Mask Classifier Gradio App
+
+```python
+python maskClassifier_gradio.py
 ```
 
 The app opens on port 8501 by default, on the localhost. 
