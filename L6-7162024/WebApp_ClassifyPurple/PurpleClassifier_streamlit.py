@@ -8,7 +8,23 @@ import matplotlib.patches as patches
 import matplotlib
 
 # Load the model
-model = joblib.load("https://raw.githubusercontent.com/menonpg/CMU_PGSS_2024/main/L6-7162024/WebApp_ClassifyPurple/model.pkl") #model.pkl")
+#model = joblib.load("https://raw.githubusercontent.com/menonpg/CMU_PGSS_2024/main/L6-7162024/WebApp_ClassifyPurple/model.pkl") #model.pkl")
+import requests
+import joblib
+
+# Step 1: Download the file
+url = "https://raw.githubusercontent.com/menonpg/CMU_PGSS_2024/main/L6-7162024/WebApp_ClassifyPurple/model.pkl"
+local_filename = "model.pkl"
+
+response = requests.get(url)
+if response.status_code == 200:
+    with open(local_filename, 'wb') as f:
+        f.write(response.content)
+else:
+    print(f"Failed to download file: {response.status_code}")
+
+# Step 2: Load the file using joblib
+model = joblib.load(local_filename)
 
 # Add a title for this app
 st.title("Purple Color Classifier using Gradient Boosting")
