@@ -248,8 +248,8 @@ python PurpleClassifier_gradio.py
 ```
 The app opens on port 7860 by default, on the localhost.
 
-## Next Class: Exposure to Time Series Data and Forecasting
+## Final Lecture: Exposure to Time Series Data and Forecasting
 
-- Time series data and examples
-- Time series forecasting using typical models (Holt Winters model, Linear Forecasting)
+- Time series data and examples: Univariate autoregressive modeling and multi-variate modeling of time-series data
+- Time series forecasting using typical models (Holt Winters model, Linear Forecasting and Amazon Chronos)
 - Time series forecasting using deep learning transformer models: Amazon Chronos
